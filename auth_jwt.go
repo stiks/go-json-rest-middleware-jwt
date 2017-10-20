@@ -62,7 +62,7 @@ type JWTMiddleware struct {
 
 type CustomerInfo struct {
 	Email  string	`json:"email"`
-	UserId string 	`json:"user_id"`
+	UserId string 	`json:"id"`
 }
 
 type CustomClaims struct {
